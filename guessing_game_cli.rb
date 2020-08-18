@@ -4,7 +4,7 @@ require 'pry'
 def run_guessing_game
   binding.pry
   number = rand(6) + 1
-  return "Guess a number."
+  puts "Guess a number."
   guess = gets.chomp
   binding.pry
   if guess == number
