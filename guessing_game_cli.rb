@@ -2,7 +2,7 @@
 require 'pry'
 
 def run_guessing_game
-  puts "/Guess a number."
+  puts "Guess a number."
   number = rand(6) + 1
   guess = gets.chomp
   if guess == number
