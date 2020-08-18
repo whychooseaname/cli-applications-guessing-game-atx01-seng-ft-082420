@@ -2,6 +2,7 @@
 require 'pry'
 
 def run_guessing_game
+  binding.pry
   return "Guess a number."
   number = rand(6) + 1
   guess = gets.chomp
