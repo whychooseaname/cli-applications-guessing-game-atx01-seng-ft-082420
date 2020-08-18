@@ -3,8 +3,8 @@ require 'pry'
 
 def run_guessing_game
   binding.pry
-  return "Guess a number."
   number = rand(6) + 1
+  return "Guess a number."
   guess = gets.chomp
   binding.pry
   if guess == number
